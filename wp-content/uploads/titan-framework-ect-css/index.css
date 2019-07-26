@@ -1,0 +1,104 @@
+$main_skin_color: #ff6a5c;
+.ect-list-post .ect-list-post-right .ect-list-venue, .cool-timeline.white-timeline .timeline-post.timeline-evt .timeline-meta {
+			background: #{$main_skin_color};
+		} 
+		.ect-list-post .ect-list-post-right .ect-list-description .ect-event-content a { color: #{$main_skin_color}; }
+		.ect-list-post .ect-list-post-left .ect-list-date{
+			background: rgba( $main_skin_color, .85 );
+			}
+		.cool-timeline.white-timeline .timeline-year { background: darken( $main_skin_color, 25% ); }
+		.cool-timeline.white-timeline .timeline-post.even .timeline-meta:before { border-left-color: #{$main_skin_color}; }
+		.cool-timeline.white-timeline .timeline-post.odd .timeline-meta:before { border-right-color: #{$main_skin_color}; }
+		.ect-list-post .ect-list-img {background-color: lighten( $main_skin_color, 10% );}
+		.cool-timeline.white-timeline .timeline-post.classic-timeline-evt .ect-date-area, .cool-timeline.white-timeline .timeline-post.classic-timeline-evt .ect-venue-details {color: #{$main_skin_color};}
+		.cool-timeline .timeline-post.classic-timeline-evt .ect-rate-area, .cool-timeline .timeline-post.classic-timeline-evt .ect-google a, .cool-timeline .timeline-post.classic-timeline-evt span.ect-icon {color: darken( $main_skin_color, 10% ); }
+		.ect-list-post .ect-list-post-right .ect-list-venue .ect-rate-area{ background: darken( $main_skin_color, 8% ); }
+		$featured_event_skin_color: #056571;
+.ect-list-post.ect-featured-event .ect-list-post-right .ect-list-venue, .cool-timeline.white-timeline .timeline-post.ect-featured-event.timeline-evt .timeline-meta{
+   background: #{$featured_event_skin_color};
+  } 
+  .ect-list-post.ect-featured-event .ect-list-post-right .ect-list-description .ect-event-content a { color: #{$featured_event_skin_color}; }
+  #ect-events-list-content .ect-list-post.ect-featured-event .ect-list-post-right h2.ect-list-title, #ect-events-list-content .ect-list-post.ect-featured-event .ect-list-post-right h2.ect-list-title a.ect-event-url, .cool-timeline.white-timeline .timeline-post.ect-featured-event .timeline-content h2.content-title, .cool-timeline.white-timeline .timeline-post.ect-featured-event .timeline-content h2.content-title a.ect-event-url { color: #{$featured_event_skin_color}; }
+  .ect-list-post.ect-featured-event .ect-list-post-left .ect-list-date{
+   background: rgba( $featured_event_skin_color, .85 );
+   }
+  .cool-timeline.white-timeline .timeline-post.ect-featured-event.even .timeline-meta:before {
+   border-left-color: #{$featured_event_skin_color};
+  }
+  .cool-timeline.white-timeline .timeline-post.ect-featured-event.odd .timeline-meta:before {
+   border-right-color: #{$featured_event_skin_color};
+  }
+  .cool-timeline .timeline-post.classic-timeline-evt.ect-featured-event .ect-rate-area, .cool-timeline .timeline-post.classic-timeline-evt.ect-featured-event .ect-google a, .cool-timeline .timeline-post.classic-timeline-evt.ect-featured-event span.ect-icon {color: darken( $featured_event_skin_color, 10% );}
+  .cool-timeline.white-timeline .timeline-post.ect-featured-event .timeline-content .content-details a {color: #{$featured_event_skin_color};}
+  .cool-timeline.white-timeline .timeline-post.ect-featured-event .timeline-content h2.content-title a:hover, .ect-list-post.ect-featured-event .ect-list-post-right h2.ect-list-title a:hover {
+   color: darken( $featured_event_skin_color, 10% ); 
+  }
+  .ect-list-post.ect-featured-event .ect-list-post-right .ect-list-venue .ect-rate-area{ background: darken( $featured_event_skin_color, 8% ); }
+  .cool-timeline.white-timeline .timeline-post.ect-featured-event.classic-timeline-evt .ect-date-area, .cool-timeline.white-timeline .timeline-post.ect-featured-event.classic-timeline-evt .ect-venue-details {color: #{$featured_event_skin_color};}
+  $event_desc_bg_color: #f3fbf1;
+.ect-list-post .ect-list-post-right, .cool-timeline.white-timeline .timeline-post .timeline-content {
+			background: #{$event_desc_bg_color};
+		}
+		.cool-timeline.white-timeline .timeline-post .timeline-content, .cool-timeline .tribe-events-event-image img {
+			border: 1px solid darken($event_desc_bg_color, 5%);
+		}
+		.cool-timeline.white-timeline .timeline-post.even .timeline-content .content-title:before { border-right-color: darken($event_desc_bg_color, 5%);}
+		.cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title:before { border-left-color: darken($event_desc_bg_color, 5%);}
+		.cool-timeline.white-timeline:before, .cool-timeline.white-timeline .timeline-post .icon-dot-full { background-color: darken($event_desc_bg_color, 10%); }
+		.cool-timeline.white-timeline .timeline-year { 
+		-webkit-box-shadow: 0 0 0 4px white, 0 0 0 8px darken($event_desc_bg_color, 10%);
+		box-shadow: 0 0 0 4px white, 0 0 0 8px darken($event_desc_bg_color, 10%);
+		}
+		.ect-list-post .ect-list-post-right .ect-list-description { border:1px solid darken($event_desc_bg_color, 4%); }
+		@media (max-width: 860px) {
+			.cool-timeline.white-timeline .timeline-post.odd .timeline-content .content-title:before { border-right-color: darken($event_desc_bg_color, 5%);border-left-color:transparent;}
+		}
+			
+		$ect_title_styles-font-family: "Amatic SC";$ect_title_styles-color: #ff6a5c;$ect_title_styles-font-size: 24px;$ect_title_styles-font-weight: bolder;$ect_title_styles-font-style: normal;$ect_title_styles-line-height: 1.4em;$ect_title_styles-letter-spacing: normal;$ect_title_styles-text-transform: none;$ect_title_styles-font-variant: normal;$ect_title_styles-text-shadow: none;#ect-events-list-content .ect-list-post .ect-list-post-right h2.ect-list-title, #ect-events-list-content .ect-list-post .ect-list-post-right h2.ect-list-title a.ect-event-url, .cool-timeline.white-timeline .timeline-post .timeline-content h2.content-title, .cool-timeline.white-timeline .timeline-post .timeline-content h2.content-title a.ect-event-url {
+	   font-family: $ect_title_styles-font-family;
+color: $ect_title_styles-color;
+font-size: $ect_title_styles-font-size;
+font-weight: $ect_title_styles-font-weight;
+font-style: $ect_title_styles-font-style;
+line-height: $ect_title_styles-line-height;
+	  }
+	  .ect-list-post .ect-list-post-right h2.ect-list-title a:hover, .cool-timeline.white-timeline .timeline-post .timeline-content h2.content-title a:hover {
+	   color: darken($ect_title_styles-color, 10%); 
+	  }
+	  .ect-list-venue .ect-rate-area .ect-rate { font-family: $ect_title_styles-font-family; }
+	  .cool-timeline.white-timeline .timeline-post .timeline-content .content-details a {color: $ect_title_styles-color;}
+	  $ect_desc_styles-font-family: "Amatic SC";$ect_desc_styles-color: #414141;$ect_desc_styles-font-size: 20px;$ect_desc_styles-font-weight: bold;$ect_desc_styles-font-style: normal;$ect_desc_styles-line-height: 1.4em;$ect_desc_styles-letter-spacing: normal;$ect_desc_styles-text-transform: none;$ect_desc_styles-font-variant: normal;$ect_desc_styles-text-shadow: none;.ect-list-post .ect-list-post-right .ect-list-description .ect-event-content p, .cool-timeline.white-timeline .timeline-post .timeline-content .content-details{
+			font-family: $ect_desc_styles-font-family;
+color: $ect_desc_styles-color;
+font-size: $ect_desc_styles-font-size;
+font-weight: $ect_desc_styles-font-weight;
+		}$ect_desc_venue-font-family: "Open Sans";$ect_desc_venue-color: #ffffff;$ect_desc_venue-font-size: 14px;$ect_desc_venue-font-weight: inherit;$ect_desc_venue-font-style: normal;$ect_desc_venue-line-height: 1.3em;$ect_desc_venue-letter-spacing: normal;$ect_desc_venue-text-transform: none;$ect_desc_venue-font-variant: normal;$ect_desc_venue-text-shadow: none;.ect-list-post .ect-list-post-right .ect-list-venue .ect-venue-details, .ect-list-post .ect-list-post-right .ect-list-venue .ect-google a,  .ect-list-post .ect-list-post-right .ect-list-venue .ect-icon, .ect-list-post .ect-list-post-right .ect-list-venue .ect-rate-area, .cool-timeline.white-timeline .ect-venue-details {
+			font-family: $ect_desc_venue-font-family;
+color: $ect_desc_venue-color;
+font-size: $ect_desc_venue-font-size;
+font-weight: $ect_desc_venue-font-weight;
+font-style: $ect_desc_venue-font-style;
+line-height: $ect_desc_venue-line-height;
+		}
+		.ect-list-post .ect-list-post-right .ect-list-venue .ect-google a {color: darken($ect_desc_venue-color, 3%);}
+		.cool-timeline span.ect-icon { color: $ect_desc_venue-color; }
+		.cool-timeline .ect-rate-area, .ect-list-post .ect-list-post-right .ect-list-venue .ect-rate-area { font-size: $ect_desc_venue-font-size + $ect_desc_venue-font-size/2 ;}
+		.cool-timeline .ect-google a { font-size: $ect_desc_venue-font-size;}
+		$ect_dates_styles-font-family: "Martel Sans";$ect_dates_styles-color: #ffffff;$ect_dates_styles-font-size: 42px;$ect_dates_styles-font-weight: inherit;$ect_dates_styles-font-style: normal;$ect_dates_styles-line-height: 0.9em;$ect_dates_styles-letter-spacing: normal;$ect_dates_styles-text-transform: none;$ect_dates_styles-font-variant: normal;$ect_dates_styles-text-shadow: none;.ect-list-post .ect-list-post-left .ect-list-date .ect-date-area, .cool-timeline.white-timeline .timeline-post .ect-date-area {
+				font-family: $ect_dates_styles-font-family;
+color: $ect_dates_styles-color;
+font-size: $ect_dates_styles-font-size;
+font-weight: $ect_dates_styles-font-weight;
+font-style: $ect_dates_styles-font-style;
+line-height: $ect_dates_styles-line-height;
+			}
+			.cool-timeline.white-timeline .timeline-year .icon-placeholder span { font-family: $ect_dates_styles-font-family; }
+			.cool-timeline .ect-rate-area, .cool-timeline .ect-google a {color: darken( $ect_dates_styles-color, 5% );}
+			$ect_mt_styles-font-family: "Amatic SC";$ect_mt_styles-color: #414141;$ect_mt_styles-font-size: 30px;$ect_mt_styles-font-weight: inherit;$ect_mt_styles-font-style: normal;$ect_mt_styles-line-height: 0.9em;$ect_mt_styles-letter-spacing: normal;$ect_mt_styles-text-transform: none;$ect_mt_styles-font-variant: normal;$ect_mt_styles-text-shadow: none;#ect-events-list-content h2.ect-events-page-title , .cool_timeline h2.ect-events-page-title{
+    font-family: $ect_mt_styles-font-family;
+color: $ect_mt_styles-color;
+font-size: $ect_mt_styles-font-size;
+font-weight: $ect_mt_styles-font-weight;
+font-style: $ect_mt_styles-font-style;
+line-height: $ect_mt_styles-line-height;
+   }[events-calendar-templates template="timeline" category="all" date_format="default" start_date="" end_date="" limit="10" order="ASC" hide-venue="no" time="future" title=""]
